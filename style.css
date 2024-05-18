@@ -29,10 +29,16 @@
    }
    
   
-   @media (max-width: 767px) {
+   @media (min-width:430px) and (max-width: 767px) {
     .img {
        background-image: url('Phone.png');
      }
+   }
+   @media (max-width: 429px){
+    .img {
+      background-image: url('Android.png');
+    }
+
    }
   .img img {
     width: auto;
