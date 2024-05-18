@@ -1,0 +1,41 @@
+.img{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  }
+  @media (min-width: 1440px){
+    .img{  background-image: url('Frame\ 1.png');
+    }
+  }
+
+  
+  @media (min-width: 1280px) and (max-width:1439px) {
+    .img {
+       background-image: url('1280.png');
+     }
+   }
+   
+   
+   @media (min-width: 768px) and (max-width: 1279px) {
+    .img {
+       background-image: url('ipad.png');
+     }
+   }
+   
+  
+   @media (max-width: 767px) {
+    .img {
+       background-image: url('Phone.png');
+     }
+   }
+  .img img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
